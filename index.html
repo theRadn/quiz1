@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Homepage</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body>
+        <nav id="navbar">
+            <div class="title">Homepage</div>
+            <ul>
+                <li><a class="active" href=".">Homepage</a></li>
+                <li><a href="profile/">Profile</a></li>
+                <li><a href="hometown/">Hometown</a></li>
+                <li><a href="food/">Food</a></li>
+                <li><a href="tourist/">Tourist</a></li>
+            </ul>
+        </nav>
+
+    <div id="greeting">
+        <h1>Welcome!</h1>
+        <p>Discover more about me, my hometown, hometown's food, and tourist spots.</p>
+    </div>
+
+    <div id="container"">
+        <div id="cards-container">
+            <div class="card" onclick="location.href='profile/'">
+                <img src="profile/img/pasfoto.jpg" alt="Profile">
+                <div class="card-text">
+                    <h2>Profile</h2>
+                    <p>Learn more about me, my interest, and my achivements.</p>
+                </div>
+            </div>
+
+            <div class="card" onclick="location.href='hometown/'">
+                <img src="hometown/img/kabupaten-kediri.png" alt="Hometown">
+                <div class="card-text">
+                    <h2>Hometown</h2>
+                    <p>Read brief description about my hometown Kediri City and Kediri Regency.</p>
+                </div>
+            </div>
+
+            <div class="card" onclick="location.href='food/'">
+                <img src="food/img/Soto_Kediri.jpg" alt="Food">
+                <div class="card-text">
+                    <h2>Food</h2>
+                    <p>Discover local dishes from Kediri.</p>
+                </div>
+            </div>
+
+            <div class="card" onclick="location.href='tourist/'">
+                <img src="tourist/img/Monumen_Simpang_Lima_Gumul.jpg" alt="Tourist">
+                <div class="card-text">
+                    <h2>Tourist</h2>
+                    <p>Discover landmarks, parks, caves, and cultural sites in Kediri.</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+  </body>
+
+</html>
